@@ -158,7 +158,7 @@ object Main {
     println("Фильтр по возрасту:")
     listOfHumans.filterByAge()
 
-    listOfHumans.getHumans(0).name_=("Jmishenko") // Изменения данних через сетеры
+    listOfHumans.getHumans(0).name_=("Jmishenko") // Изменения данных через сетеры
     println("\n\n")
     println("Изменения имени через сетер")
     listOfHumans.printHumans()

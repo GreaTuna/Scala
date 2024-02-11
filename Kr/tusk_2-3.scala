@@ -116,7 +116,7 @@ class ListHuman(
   def printHumans(): Unit = {
     _listHumans.foreach { human =>
       human.printInfo()
-      println("______________________________________________________________________")
+      println("________________________________________________________________")
     }
   }
 }
